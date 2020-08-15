@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function () {
+
+//Better to construct options first and then pass it as a parameter
+var options = {
+	animationEnabled: true,
+	title: {
+		text: "My Skills are as follows",                
+		fontColor: "Peru"
+	},	
+	axisY: {
+		tickThickness: 1,
+		lineThickness: 0,
+		valueFormatString: " ",
+		gridThickness: 0                    
+	},
+	axisX: {
+		tickThickness: 0,
+		lineThickness: 0,
+		labelFontSize: 18,
+		labelFontColor: "Peru"				
+	},
+	data: [{
+		indexLabelFontSize: 26,
+		toolTipContent: "<span style=\"color:#62C9C3\">{indexLabel}:</span> <span style=\"color:#CD853F\"><strong>{y}</strong></span>",
+		indexLabelPlacement: "inside",
+		indexLabelFontColor: "white",
+		indexLabelFontWeight: 600,
+		indexLabelFontFamily: "Verdana",
+		color: "#62C9C3",
+		type: "bar",
+		dataPoints: [
+			{ y: 60, label: "60%", indexLabel: "C" },
+			{ y: 68, label: "68%", indexLabel: "MYSQL" },
+			{ y: 72, label: "72%", indexLabel: "JAVA,PYTHON" },
+            { y: 75, label: "75%", indexLabel: "PHP" },
+			{ y: 80, label: "80%", indexLabel: "HTML/ CSS/ JS" }
+		]
+	}]
+};
+
+$("#chartContainer").CanvasJSChart(options);
+}
+</script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="achievement.css">
+<title>Aaron Puthuvana Sam</title>
+</head>
+<body>
+	<header>
+    	<navbar><a href="index.html">HOME</a></navbar>
+	</header>
+	<center><h1>Dive Deeply into My Skills</h1></center>    
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+</html>

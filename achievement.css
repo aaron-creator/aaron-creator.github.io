@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+header{
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.achieve1{ 
+ max-width: 100%;
+ height: auto;
+ padding-top: 10px;
+}
+.container{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    margin-top: 10px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover{
+ color: black;
+}

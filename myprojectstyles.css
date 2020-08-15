@@ -1,0 +1,41 @@
+body{
+    border: 0px;
+}
+.container{
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    margin-top: 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+.project1{
+    max-width: 100%;
+    height: auto;
+    background-color:pink;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.project2{
+    max-width: 100%;
+    height: auto;
+    background-color:grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    padding-top: 10px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover{
+ color: black;
+}
+header{
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+}

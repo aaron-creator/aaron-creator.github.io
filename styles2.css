@@ -1,0 +1,132 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+.container
+{
+    max-width: 100%;
+    height: auto;
+}
+/* Nav Styles*/
+.nav-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.45cm;
+    text-transform: uppercase;
+} 
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper :hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a :hover{
+    color: black;
+}
+/* Aboutpage styles */
+.content-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+}
+p{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+.pic{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   width: 100%;
+   height: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+img{
+    border-radius: 25%;
+}
+.pic-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    color: white;
+}
+.bottom-wrapper{
+    width: 100%;
+    height: auto;
+}
+h3{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fa{
+  font-size: 30px !important;
+  color: black;
+}
+a{
+    width: 50px;
+    height: 50%;
+    margin-top: 10px;
+
+}
+.text-center1{
+    width: 100%;  
+    height: auto;
+    font-size: 1.5cm;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.text-center2{
+ max-width: 100%;  
+ height: auto;
+ display: flex;
+ font-size: 0.65cm;
+ font-weight: bold;
+ color: grey;
+ justify-content: center;
+ align-items: center;
+ padding-left: 10px;
+ padding-right: 10px;
+
+}
+@media (max-width: 850px){   
+    .content-wrapper
+    {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }      
+    
+}

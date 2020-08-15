@@ -1,0 +1,232 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.svg);
+ }
+ *{
+     font-family: myFirstFont;
+ }
+ 
+/* Master Styles*/
+body{
+    margin: 0px;
+}
+.container
+{
+    max-width: 100%;
+    height: auto;
+}
+.content-wrapper{
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.header{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.box{
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.box1{
+    background-color:pink;
+}
+.box2{
+    background-color:orange;
+}
+.box3{
+    background-color:rgb(66, 248, 66);
+}
+.box4{
+    background-color:grey;
+}
+.clearfix{
+    clear: both;
+}
+.headfoot{
+    max-width: 100%;
+    height: auto;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+h5{
+  padding-top: 80px;
+  font-size: 0.8cm;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+/* Nav Styles*/
+.nav-wrapper{
+    max-width: calc(100%-40px);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.45cm;
+    text-transform: uppercase;
+} 
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper :hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a :hover{
+    color: black;
+}
+.box1 a{
+    color: black;
+    text-decoration: none;
+}
+.box1 a :hover{
+    color: white; 
+}
+.box2 a{
+    color: black;
+    text-decoration: none;
+}
+.box2 a :hover{
+    color: white; 
+}
+.box3 a{
+    color: black;
+    text-decoration: none;
+}
+.box3 a :hover{
+    color: white; 
+}
+.box4 a{
+    color: black;
+    text-decoration: none;
+}
+.box4 a :hover{
+    color: white; 
+}
+
+/* Portfolio Styles*/
+.bottom-home{
+   max-width: 100%;
+   height: 200px;
+}
+.bottom-text1-home{
+    font-style: italic;
+    font-size: 0.9cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-top: 70px;
+}
+.bottom-text2-home{
+    font-style: normal;
+    font-size: 0.3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 90px;
+}
+/* Nessds to be specific with selector*/
+
+.box{
+    transition: 1s;
+    font-weight: 600;
+    color: black;
+}
+.box:hover {
+    font-weight: 600;
+    color:white;
+}
+.img-darken{
+    transition: 1s;
+    filter: brightness(20%);
+}
+
+/*about page*/
+.head-about-wrapper{
+    max-width: 100%;
+    height: 400px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-img-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.profile-content-wrapper{
+ display: grid;
+ grid-auto-rows: auto;
+ color:white;
+ max-width: 100%;
+ height: 10px;
+ padding-left: 90px;
+ padding-bottom:40px;
+}
+.content-head{
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 0.8cm;
+}
+.content-para{
+    padding-top: 10px;
+    padding-bottom: 110px;
+    padding-right:  190px;
+    object-fit: contain;
+}
+.bottom-about-wrapper{
+    max-width: 100%;
+    height: 400px;
+    background-color:white;
+}
+h1{
+    font-size: 1.5cm;
+}
+a{
+    width: 50px;
+    height: 50%;
+    margin-top: 10px;
+
+}
+.fa{
+    font-size: 30px !important;
+}
+h2{
+    color: white;
+    font-family: Manrope;
+}
+/*Tablet screen*/
+@media screen and (max-width: 830px){   
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+}
+/*Mobile screen*/
+@media screen and (max-width: 450px){
+    .box3{
+        width: 100%;
+    }
+    .box4{
+        width: 100%;
+    }
+}

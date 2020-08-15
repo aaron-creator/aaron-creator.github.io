@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aaron Puthuvana Sam</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="left-side">
+          <div class="nav-link-wrapper">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="nav-link-wrapper">
+            <a href="about2.html">About</a>
+          </div>
+        </div>
+
+        <div class="right-side">
+          <div class="brand">
+            AARON PUTHUVANA SAM
+          </div>
+        </div>
+      </div>
+
+      <div class="content-wrapper">
+        <div class="header">
+          <h1><center>Welcome to My Space</center></h1>
+        </div>
+        <div class="box box1">
+          <a href="myprojects.html"
+            ><h5><center>My Projects</center></h5></a
+          >
+        </div>
+        <div class="box box2">
+          <a href="gallery.html"
+            ><h5><center>Gallery</center></h5></a
+          >
+        </div>
+        <div class="box box3">
+          <a href="achievements.html"
+            ><h5><center>Achievements</center></h5></a
+          >
+        </div>
+        <div class="box box4">
+          <a href="skills.html"
+            ><h5><center>Skills</center></h5></a
+          >
+        </div>
+        <div class="clearfix"></div>
+        <div class="headfoot">
+          <h1><center>Hope you had a glance at My Space</center></h1>
+        </div>
+      </div>
+
+      <div class="bottom-home" style="background-color: black;">
+        <br /><br /><br />
+        <center>
+          <h2>Aaron</h2>
+          <p style="color: white;">Life is simple. Smile often and be happy.</p>
+        </center>
+      </div>
+    </div>
+  </body>
+  <script>
+    const portfolioItems = document.querySelectorAll(".portfolio-item-wrapper");
+
+    portfolioItems.forEach((portfolioItem) => {
+      portfolioItem.addEventListener("mouseover", () => {
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.add("img-darken");
+      });
+      portfolioItem.addEventListener("mouseout", () => {
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.remove("img-darken");
+      });
+    });
+  </script>
+</html>
+<!--
+
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image: url(images/code6.jpg);">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/codelogo.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I know how to code in C,Java,Python.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image: url(images/design2.jpg);">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/designlogo1.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I like to design things and come up with creative ideas.
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image: url(images/cars2.jpg);">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/carlogo2.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I like to spend time in traveling.
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image : url(images/code4.jpg)">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/weblogo.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I know webscripting languages such as HTML5,CSS3,Javascipt ES6.
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image: url(images/developer2.jpg);">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/angularlogo1.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I know how to work in Angular,Nodejs and MongoDB.
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backgound" style="background-image: url(images/developer1.jpg);">
+                
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/applogo1.png">
+                            </div>
+                            
+                            <div class="subtitle">
+                                I know how to develop Android Apps and have created backend APIs for apps.
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                
+
+            
+            </div>   
+            
+
+
+
+              
+            
+            
+-->
