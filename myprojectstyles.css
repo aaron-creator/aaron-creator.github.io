@@ -4,6 +4,13 @@ body{
 .container{
     max-width: 100%;
     height: auto;
+    
+}
+hr{
+    width: "50%";
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 10px solid black;
 }
 h2{
     margin-top: 0px;
@@ -17,17 +24,18 @@ p{
 .project-name{
     text-align: center;
 }
-.project1{
-    max-width: 100%;
-    height: auto;
-    background-color:pink;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.project-description{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.project2{
+.project-link{
+    text-align: center;
+}
+.projectholder{
     max-width: 100%;
     height: auto;
-    background-color:grey;
+    /*background-color:pink;*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
