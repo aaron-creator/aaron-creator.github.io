@@ -24,9 +24,6 @@ p{
     /* background-color: blue; */
     justify-content: center;
 }
-.mytable{
-    /* background-color: brown; */
-}
 td,th{
     padding: 20px;
     background-color: aliceblue;
