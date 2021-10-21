@@ -18,6 +18,11 @@ h2{
 p{
     margin-bottom: 0px;
 }
+.tableClass{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
 
 td,th{
     padding: 20px;
