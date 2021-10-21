@@ -21,9 +21,12 @@ p{
 .tableClass{
     display: flex;
     flex-direction: row;
-    background-color: blue;
+    /* background-color: blue; */
+    justify-content: center;
 }
-
+.mytable{
+    /* background-color: brown; */
+}
 td,th{
     padding: 20px;
     background-color: aliceblue;
