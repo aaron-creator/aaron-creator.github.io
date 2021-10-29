@@ -29,6 +29,7 @@ td,th{
 }
 .projectheader{
  text-align: center;
+ font-weight: bold;
 }
 .project-name{
     text-align: center;
