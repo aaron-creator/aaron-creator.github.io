@@ -38,10 +38,11 @@ a:hover{
 }
 .skilltitlename{
     text-align: center;
+    padding: 5px;
 }
 .skillname{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 /* .skills{
     display: flex;
