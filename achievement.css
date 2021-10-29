@@ -36,6 +36,13 @@ a:hover{
     flex-direction: column;
     /* background-color: blue; */
 }
+.skilltitlename{
+    text-align: center;
+}
+.skillname{
+    text-align: center;
+    padding: 10px;
+}
 /* .skills{
     display: flex;
     flex-direction: column;
