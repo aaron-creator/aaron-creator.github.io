@@ -29,12 +29,12 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: red;
+    /* background-color: red; */
 }
 .skillcontainer{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    /* background-color: blue; */
 }
 /* .skills{
     display: flex;
