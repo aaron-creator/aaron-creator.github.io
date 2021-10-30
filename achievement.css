@@ -43,13 +43,15 @@ a:hover{
 .skill-div-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .skill-div{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     float: left;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 .skillname{
     display: flex;
