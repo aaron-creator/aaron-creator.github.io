@@ -40,9 +40,21 @@ a:hover{
     text-align: center;
     padding: 5px;
 }
+.skill-div-container{
+    display: flex;
+    flex-direction: row;
+}
+.skill-div{
+    background-color: yellow;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+}
 .skillname{
-    text-align: center;
-    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 /* .skills{
     display: flex;
